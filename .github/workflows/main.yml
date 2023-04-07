@@ -21,4 +21,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: execute py script # run main.py
+        env:
+          WEBHOOKS: ${{ secrets.WEBHOOKS }}
+          DBPASSWORD: ${{ secrets.DBPASSWORD }}
+          DBNAME: ${{ secrets.DBNAME }}
+          DBHOST: ${{ secrets.DBHOST }}
+          
         run: python time_magazine.py
