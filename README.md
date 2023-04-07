@@ -1,5 +1,5 @@
-# Times Cover
+# Time Cover
 
-Automates the cover of the Times when it comes out
+Automates the cover of the Time when it comes out
 
-![Times Cover](full_quality_cover.png)
+![Time Cover](full_quality_cover.png)
